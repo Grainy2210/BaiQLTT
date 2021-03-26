@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LocDanhSach">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="LỌC DANH SÁCH"
+
+        android:gravity="center"
+        android:textColor="#00ff00"
+        android:textSize="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtTenQq_LocDS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/lvds_LocDS"
+        android:layout_width="match_parent"
+        android:layout_height="522dp" />
+</LinearLayout>
